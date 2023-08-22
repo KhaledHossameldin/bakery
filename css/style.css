@@ -1,0 +1,178 @@
+:root {
+    --gold-color: #AE9768;
+    --blue: #0275D8;
+    --dark-gray: #303030;
+    --gray: #969696;
+    --light-gray: #F8F8F8;
+    --footer-main: #383531;
+    --footer-bottom: #2F2D2B;
+    --facebook-color: #4267B2;
+    --google-color: #DB4437;
+    --linkedin-color: #0072B1;
+    --twitter-color: #1DA1F2;
+
+    --animation-duration: 0.5s
+}
+
+i {
+    cursor: pointer;
+}
+
+/* Navbar */
+nav a.nav-link {
+    color: black;
+    transition: var(--animation-duration) color;
+    -webkit-transition: var(--animation-duration) color;
+    -moz-transition: var(--animation-duration) color;
+    -ms-transition: var(--animation-duration) color;
+    -o-transition: var(--animation-duration) color;
+}
+
+nav a.nav-link.nav-active-link {
+    color: var(--gold-color);
+}
+
+nav a.nav-link:hover {
+    color: var(--gold-color);
+}
+
+/* Header */
+header {
+    background-image: url('../images/header.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 4.75rem;
+}
+
+header button:first-child {
+    background-color: var(--gold-color);
+    border: 3px solid var(--gold-color);
+}
+
+header button:last-child {
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+header button:first-child:hover, header button:last-child:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.fixed-icons {
+    top: 25%;
+}
+
+.fixed-icons i {
+    color: var(--gold-color);
+    transition: var(--animation-duration) color;
+    -webkit-transition: var(--animation-duration) color;
+    -moz-transition: var(--animation-duration) color;
+    -ms-transition: var(--animation-duration) color;
+    -o-transition: var(--animation-duration) color;
+}
+
+.fixed-icons i:hover {
+    color: var(--blue);
+}
+
+/* Who We Are */
+#who-we-are {
+    color: var(--dark-gray);
+}
+
+.who-we-are-icon {
+    width: 50px;
+    height: 50px;
+    color: var(--gold-color);
+}
+
+.who-we-are-icon i {
+    cursor: unset;
+}
+
+/* Our Location & Contact Information */
+#our-location, #contact-information {
+    background-color: var(--light-gray);
+}
+
+.contact-information-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--gold-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-main);
+    color: var(--gray);
+}
+
+footer i {
+    cursor: unset;
+}
+
+footer a {
+    color: var(--gray);
+    transition: var(--animation-duration) color;
+    -webkit-transition: var(--animation-duration) color;
+    -moz-transition: var(--animation-duration) color;
+    -ms-transition: var(--animation-duration) color;
+    -o-transition: var(--animation-duration) color;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer div.col-lg-3.col-md-6:last-child {
+    background: url('../images/footer.png') no-repeat 50%;
+}
+
+.footer-bottom {
+    background-color: var(--footer-bottom);
+}
+
+.footer-link {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: var(--footer-main);
+    transition: var(--animation-duration) background-color;
+    -webkit-transition: var(--animation-duration) background-color;
+    -moz-transition: var(--animation-duration) background-color;
+    -ms-transition: var(--animation-duration) background-color;
+    -o-transition: var(--animation-duration) background-color;
+}
+
+.footer-link:first-child:hover {
+    background-color: var(--facebook-color);
+}
+
+.footer-link:nth-child(2):hover {
+    background-color: var(--google-color);
+}
+
+.footer-link:nth-child(3):hover {
+    background-color: var(--linkedin-color);
+}
+
+.footer-link:last-child:hover {
+    background-color: var(--twitter-color);
+}
+
+.footer-link i {
+    transition: var(--animation-duration) color;
+    -webkit-transition: var(--animation-duration) color;
+    -moz-transition: var(--animation-duration) color;
+    -ms-transition: var(--animation-duration) color;
+    -o-transition: var(--animation-duration) color;
+}
+
+.footer-link:hover i {
+    color: white;
+}

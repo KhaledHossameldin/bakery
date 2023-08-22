@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo-colored.png" alt="bakery logo" class="w-50" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link nav-active-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog Index</a></li>
+                            <li><a class="dropdown-item" href="#">Simple Post</a></li>
+                            <li><a class="dropdown-item" href="#">Gallery Post</a></li>
+                            <li><a class="dropdown-item" href="#">Basic Post</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="vh-100">
+        <div class="container d-flex flex-column justify-content-center align-items-center text-white h-100">
+            <p class="fs-5">Welcome to</p>
+            <h1 class="mb-4">Family Bakery</h1>
+            <p class="fs-4 fw-normal text-center">We're the biggest, best equipped and most advanced Bakery in the
+                greater Los Angeles area.</p>
+            <div class="mt-4">
+                <button class="btn btn-dark m-1 px-4 py-3">Learn More</button>
+                <button class="btn btn-dark m-1 px-4 py-3">Contact Us</button>
+            </div>
+        </div>
+        <div class="position-fixed end-0 bg-white d-flex flex-column gap-3 rounded-start px-2 py-3 fixed-icons">
+            <i class="fa-solid fa-gears fs-5"></i>
+            <i class="fa-solid fa-cart-shopping fs-5"></i>
+        </div>
+    </header>
+
+    <!-- Who We Are -->
+    <section id="who-we-are" class="py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <div>
+                        <img src="./images/who-we-are.jpg" alt="fresh bread" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column gap-5 justify-content-center">
+                        <h2>Who We Are?</h2>
+                        <article>
+                            <p>We have been operating for over 30 years and are Members of The Federation of Master
+                                Builders. We work on projects big and small from small residential extensions to full
+                                house. We are so happy with this theme. Everyday it make our lives better.</p>
+                        </article>
+                        <ul class="list-unstyled">
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="who-we-are-icon d-flex justify-content-center align-items-center border rounded-circle">
+                                    <i class="fa-solid fa-leaf fs-4"></i>
+                                </div>
+                                <p class="m-0">We care about environment.</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="who-we-are-icon d-flex justify-content-center align-items-center border rounded-circle">
+                                    <i class="fa-solid fa-users fs-4"></i>
+                                </div>
+                                <p class="m-0">We are trusted by hundreds of clients.</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="who-we-are-icon d-flex justify-content-center align-items-center border rounded-circle">
+                                    <i class="fa-solid fa-heart fs-4"></i>
+                                </div>
+                                <p class="m-0">Social media loves us!</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="who-we-are-icon d-flex justify-content-center align-items-center border rounded-circle">
+                                    <i class="fa-solid fa-check fs-4"></i>
+                                </div>
+                                <p class="m-0">This list is super easy to create.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Location -->
+    <section id="our-location" class="py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex flex-column gap-5 justify-content-center">
+                        <h2>Our Location</h2>
+                        <article>
+                            <p>We have been operating for over 30 years and are Members of The Federation of Master
+                                Builders. We work on projects big and small from small residential extensions to full
+                                house. We are so happy with this theme. Everyday it make our lives better.</p>
+                            <p>Story on projects big and small from small residential extensions to full house. We are
+                                so happy with this theme. Everyday it make our lives better.</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <img src="./images/our-location.jpg" alt="bakery kitchen" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Baking -->
+    <section id="our-baking" class="py-5 text-center">
+        <div class="container py-5">
+            <div>
+                <h2>Our Baking</h2>
+                <p>Learn more about them. We have worked truly hard to make them perfect for every use.</p>
+            </div>
+            <div class="row gy-5">
+                <div class="col-md-4">
+                    <div>
+                        <img src="./images/our-baking/1.jpg" alt="fresh rounded bread" class="img-fluid" />
+                        <div class="p-3">
+                            <h3>Superior Breads</h3>
+                            <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                                mauris
+                                velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <img src="./images/our-baking/2.jpg" alt="fresh rounded bread" class="img-fluid" />
+                        <div class="p-3">
+                            <h3>Bagels</h3>
+                            <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                                mauris
+                                velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <img src="./images/our-baking/3.jpg" alt="fresh rounded bread" class="img-fluid" />
+                        <div class="p-3">
+                            <h3>Cookies</h3>
+                            <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
+                                mauris
+                                velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact-information" class="py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex flex-column gap-5 justify-content-center">
+                        <h2>Contact Information</h2>
+                        <article>
+                            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                                dapibus leo.</p>
+                        </article>
+                        <p>Our contact details:</p>
+                        <ul class="list-unstyled">
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="contact-information-icon d-flex justify-content-center align-items-center rounded-circle text-white">
+                                    <i class="fa-solid fa-map"></i>
+                                </div>
+                                <p class="m-0">Manchester St 123-78B, Random 713, UK</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="contact-information-icon d-flex justify-content-center align-items-center rounded-circle text-white">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <p class="m-0">+46 123 456 789</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="contact-information-icon d-flex justify-content-center align-items-center rounded-circle text-white">
+                                    <i class="fa-solid fa-headphones"></i>
+                                </div>
+                                <p class="m-0">+37 431 456 789</p>
+                            </li>
+                            <li class="d-flex gap-3 align-items-center my-3">
+                                <div
+                                    class="contact-information-icon d-flex justify-content-center align-items-center rounded-circle text-white">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <p class="m-0">hello@sitename.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <img src="./images/who-we-are.jpg" alt="fresh bread" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-5">
+        <div class="pt-5">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <h2 class="text-white fs-5 mb-5">About us</h2>
+                            <article>
+                                <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                                    consectetur. I am text block. Click edit button to change this text. Lorem ipsum
+                                    dolor
+                                    sit amet, consectetur.</p>
+                                <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <h2 class="text-white fs-5 mb-5">Why we are special?</h2>
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Our magical recipe.</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>We care about environment.</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>We are trusted by hundreds of clients.</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Social media loves us!</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>This list is super easy to create.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <h2 class="text-white fs-5 mb-5">Opening Hours</h2>
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Monday 10AM - 9PM</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Tuesday 10AM - 9PM</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Wednesday 10AM - 9PM</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Thursday 10AM - 10PM</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Friday 10AM - 10PM</p>
+                            <hr />
+                            <p><i class="fa-solid fa-chevron-right me-2"></i>Weekends 10AM - 11PM</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <h2 class="text-white fs-5 mb-5">Contact Details</h2>
+                            <p><i class="fa-solid fa-location-dot me-2"></i>Manchester Road 123-78B, Silictown 7854MD,
+                                Great
+                                Country</p>
+                            <hr />
+                            <p>
+                                <i class="fa-solid fa-phone me-2"></i>
+                                <a href="tel:+46123456789" class="text-decoration-none">+46 123 456 789</a>
+                            </p>
+                            <hr />
+                            <p>
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                <a href="mailto:hello@sitename.com" class="text-decoration-none">hello@sitename.com</a>
+                            </p>
+                            <hr />
+                            <p>
+                                <i class="fa-solid fa-earth me-2"></i>
+                                <a href="http://www.sitename.com"
+                                    class="text-decoration-none">http://www.sitename.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mt-5 py-5 d-flex flex-column justify-content-center align-items-center gap-5">
+                <img src="./images/logo.png" alt="bakery white logo" />
+                <p>Copyright 2017. All rights reserved.</p>
+                <div class="d-flex gap-2">
+                    <div class="footer-link d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="footer-link d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="footer-link d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="footer-link d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
